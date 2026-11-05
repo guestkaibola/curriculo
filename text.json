@@ -1,0 +1,126 @@
+
+{
+    "cv": {
+      "metadata": {
+        "version": "1.0",
+        "language": "pt-BR",
+        "lastUpdated": "2026-11-05"
+      },
+      "personalInformation": {
+        "fullName": "Gustavo",
+        "professionalTitle": "Estudante de Análise e Desenvolvimento de Sistemas",
+        "profilePhoto": "",
+        "email": "gustavozocchiolasalvia@gmail.com",
+        "phone": "(11) 93945-8982",
+        "whatsapp": "(11) 93945-8982",
+        "location": {
+          "city": "Suzano",
+          "state": "São Paulo",
+          "country": "Brasil",
+          "address": ""
+        },
+        "linkedin": "",
+        "github": "https://github.com/guestkaibola",
+        "portfolio": "",
+        "website": ""
+      },
+      "professionalSummary": {
+        "description": "Estudante do segundo ano de Análise e Desenvolvimento de Sistemas na UniPiaget, com conhecimentos básicos em Java, JavaScript, HTML e CSS. Utiliza o GitHub para organizar e compartilhar trabalhos acadêmicos. Busca uma oportunidade de estágio para desenvolver habilidades técnicas, adquirir experiência profissional e contribuir com projetos de desenvolvimento de software.",
+        "yearsOfExperience": 0,
+        "mainSpecialization": "Desenvolvimento de Sistemas",
+        "careerObjective": "Conquistar uma oportunidade de estágio em Desenvolvimento de Sistemas."
+      },
+      "professionalExperience": [],
+      "education": [
+        {
+          "institution": "UniPiaget",
+          "degree": "Análise e Desenvolvimento de Sistemas",
+          "fieldOfStudy": "Tecnologia da Informação",
+          "level": "Ensino Superior",
+          "startDate": "2026-01",
+          "endDate": "",
+          "current": true,
+          "description": "Cursando o segundo ano de Análise e Desenvolvimento de Sistemas."
+        },
+        {
+          "institution": "",
+          "degree": "Ensino Médio",
+          "fieldOfStudy": "",
+          "level": "Ensino Médio Completo",
+          "startDate": "",
+          "endDate": "",
+          "current": false,
+          "description": "Ensino Médio concluído."
+        }
+      ],
+      "skills": {
+        "technical": [
+          {
+            "name": "Java",
+            "level": "Básico"
+          },
+          {
+            "name": "JavaScript",
+            "level": "Básico"
+          },
+          {
+            "name": "HTML",
+            "level": "Básico"
+          },
+          {
+            "name": "CSS",
+            "level": "Básico"
+          }
+        ],
+        "behavioral": [],
+        "tools": [
+          "GitHub"
+        ],
+        "methodologies": []
+      },
+      "languages": [],
+      "certifications": [],
+      "projects": [
+        {
+          "name": "Trabalhos acadêmicos",
+          "description": "Desenvolvimento e organização de atividades e trabalhos realizados durante a graduação, utilizando o GitHub para armazenar e compartilhar arquivos e códigos.",
+          "role": "Estudante",
+          "technologies": [
+            "GitHub",
+            "Java",
+            "JavaScript",
+            "HTML",
+            "CSS"
+          ],
+          "url": "https://github.com/guestkaibola",
+          "startDate": "2026-01",
+          "endDate": ""
+        }
+      ],
+      "courses": [],
+      "additionalInformation": {
+        "availability": "",
+        "workModel": "",
+        "travelAvailability": false,
+        "additionalNotes": "Em busca da primeira oportunidade profissional na área de tecnologia."
+      },
+      "preferences": {
+        "targetPositions": [
+          "Estagiário em Desenvolvimento de Sistemas",
+          "Estagiário em Desenvolvimento de Software",
+          "Estagiário em Programação"
+        ],
+        "targetIndustries": [
+          "Tecnologia da Informação",
+          "Desenvolvimento de Software"
+        ],
+        "preferredLocations": [
+          "Suzano - SP",
+          "Mogi das Cruzes - SP",
+          "São Paulo - SP"
+        ],
+        "preferredWorkModel": ""
+      }
+    }
+  }
+  

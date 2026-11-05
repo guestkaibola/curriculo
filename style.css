@@ -1,0 +1,261 @@
+
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #e9edf2;
+    color: #222;
+    line-height: 1.5;
+}
+
+/* Estrutura principal */
+.curriculo {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 35px 45px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Cabeçalho */
+.barra-superior {
+    height: 14px;
+    background-color: #0c2947;
+    margin-bottom: 25px;
+    border-radius: 2px;
+}
+
+.cabecalho {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cabecalho h1 {
+    font-size: 42px;
+    color: #0c2947;
+    font-weight: 800;
+    letter-spacing: 1px;
+}
+
+.cabecalho h2 {
+    font-size: 17px;
+    color: #334b63;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.contatos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    font-size: 13px;
+}
+
+.contatos a {
+    color: #174a7e;
+    text-decoration: none;
+}
+
+.contatos a:hover {
+    text-decoration: underline;
+}
+
+/* Seções */
+.secao {
+    margin-bottom: 25px;
+}
+
+.titulo-secao {
+    color: #ffffff;
+    background-color: #0c2947;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 6px 12px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    letter-spacing: 0.5px;
+}
+
+.secao p {
+    font-size: 14px;
+    text-align: justify;
+}
+
+/* Formação */
+.item-formacao {
+    padding: 5px 0 15px 15px;
+    border-left: 3px solid #174a7e;
+    margin-left: 10px;
+}
+
+.item-formacao h4 {
+    color: #0c2947;
+    font-size: 15px;
+}
+
+.item-formacao .periodo {
+    float: right;
+    font-weight: bold;
+    color: #174a7e;
+}
+
+.item-formacao p {
+    margin-top: 3px;
+}
+
+/* Habilidades */
+.habilidades-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.grupo-habilidade {
+    border-left: 2px solid #174a7e;
+    padding-left: 15px;
+}
+
+.grupo-habilidade h4 {
+    color: #174a7e;
+    margin-bottom: 8px;
+    font-size: 15px;
+}
+
+.lista-habilidades {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+}
+
+.habilidade {
+    background-color: #e5edf5;
+    color: #0c2947;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Projetos */
+.item-projeto {
+    border-left: 3px solid #174a7e;
+    padding-left: 15px;
+    margin-left: 10px;
+}
+
+.item-projeto h4 {
+    color: #0c2947;
+    font-size: 15px;
+}
+
+.item-projeto p {
+    margin: 5px 0;
+}
+
+.item-projeto a {
+    color: #174a7e;
+    font-weight: bold;
+    word-break: break-word;
+}
+
+/* Informações adicionais */
+.item-informacao {
+    border-left: 3px solid #174a7e;
+    padding-left: 15px;
+    margin-left: 10px;
+}
+
+.item-informacao h4 {
+    color: #0c2947;
+    margin-bottom: 5px;
+}
+
+/* Rodapé */
+.rodape {
+    text-align: center;
+    border-top: 1px solid #d5dce4;
+    padding-top: 15px;
+    margin-top: 30px;
+}
+
+.rodape p {
+    color: #687789;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.botao-imprimir {
+    background-color: #0c2947;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.botao-imprimir:hover {
+    background-color: #174a7e;
+}
+
+/* Responsividade */
+@media (max-width: 650px) {
+
+    .curriculo {
+        margin: 10px;
+        padding: 25px 20px;
+    }
+
+    .cabecalho h1 {
+        font-size: 32px;
+    }
+
+    .cabecalho h2 {
+        font-size: 14px;
+    }
+
+    .contatos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .habilidades-container {
+        grid-template-columns: 1fr;
+    }
+
+    .item-formacao .periodo {
+        float: none;
+        display: block;
+    }
+
+}
+
+/* Impressão / PDF */
+@media print {
+
+    body {
+        background-color: white;
+    }
+
+    .curriculo {
+        max-width: 100%;
+        margin: 0;
+        padding: 20px;
+        box-shadow: none;
+    }
+
+    .botao-imprimir {
+        display: none;
+    }
+
+    .secao {
+        break-inside: avoid;
+    }
+
+}
